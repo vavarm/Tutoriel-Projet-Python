@@ -68,7 +68,7 @@ Un projet Poetry est structuré comme suit :
 <project-name>
 ┠── pyproject.toml: Metadonnées, dépendances et configurations du projet
 ┠── poetry.lock: Fichier de gestion des dépendances
-┠── <project-name>
+┠── <project-name>: Dossier contenant le code source du projet
         ┖── __init__.py: Entrypoint du projet
 ┠── tests
         ┖── __init__.py: Entrypoint du package de test du projet
@@ -79,7 +79,7 @@ Un projet Poetry est structuré comme suit :
 - Lancer un script Python dans l'environnement Poetry :
 
   ```bash
-  poetry run python <project-nameS>/__init__.py
+  poetry run python <project-name>/__init__.py
   ```
 
 ### Gestion des Dépendances
